@@ -1,2 +1,183 @@
-# articles-
-مقالات علیرضا رضاخواه
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>آثار و مقالات علیرضا رضاخواه — آرشیو نیم‌قرن نوشتار در ایمنی و بهداشت حرفه‌ای</title>
+<meta name="description" content="مجموعه‌ای از بیش از صد مقاله، طرح پژوهشی و سخنرانی علمی علیرضا رضاخواه در زمینه‌ی بهداشت حرفه‌ای، ایمنی صنعتی و سلامت نیروی کار.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#1b2430;--ink-soft:#4a5568;--paper:#f3efe6;--paper-raised:#fbf9f4;--rule:#d8cfbd;--rust:#a9602c;--rust-deep:#7e4720;--navy:#213347;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--paper);color:var(--ink);font-family:'Vazirmatn',sans-serif;line-height:1.8;}
+  h1,h2,h3,.serif{font-family:'Noto Naskh Arabic',serif;}
+  a{color:inherit;} img{max-width:100%;display:block;}
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px;}
+  .masthead{border-bottom:3px solid var(--ink);padding:28px 0 18px;}
+  .masthead .wrap{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px;}
+  .masthead .brand{font-size:0.95rem;letter-spacing:.02em;color:var(--ink-soft);}
+  .masthead .date{font-size:0.85rem;color:var(--ink-soft);}
+  .hero{padding:64px 0 48px;border-bottom:1px solid var(--rule);}
+  .hero .kicker{font-size:0.95rem;color:var(--rust-deep);margin-bottom:18px;font-weight:600;}
+  .hero h1{font-size:clamp(2.1rem,5vw,3.4rem);line-height:1.28;font-weight:700;max-width:14ch;}
+  .hero .byline{margin-top:22px;font-size:1.15rem;color:var(--ink-soft);max-width:46ch;}
+  .hero .byline b{color:var(--ink);font-weight:600;}
+  .stat-row{display:flex;gap:0;margin-top:44px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);}
+  .stat{flex:1;padding:18px 20px;border-left:1px solid var(--rule);}
+  .stat:last-child{border-left:none;}
+  .stat .num{font-family:'Noto Naskh Arabic',serif;font-size:2rem;font-weight:700;color:var(--rust-deep);}
+  .stat .label{font-size:0.85rem;color:var(--ink-soft);margin-top:4px;}
+  .cta-row{margin-top:40px;display:flex;gap:14px;flex-wrap:wrap;}
+  .btn{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;font-size:1rem;font-weight:600;text-decoration:none;border:1.5px solid var(--ink);}
+  .btn.primary{background:var(--ink);color:var(--paper-raised);}
+  .btn.primary:hover{background:var(--rust-deep);border-color:var(--rust-deep);}
+  .btn.ghost{background:transparent;color:var(--ink);}
+  .btn.ghost:hover{background:var(--ink);color:var(--paper-raised);}
+  .btn small{opacity:.75;font-weight:400;}
+  .intro{padding:52px 0;border-bottom:1px solid var(--rule);}
+  .intro p{font-size:1.08rem;max-width:62ch;color:var(--ink);}
+  .intro p + p{margin-top:16px;}
+  .toc{padding:56px 0;}
+  .toc h2{font-size:1.6rem;margin-bottom:6px;}
+  .toc .sub{color:var(--ink-soft);font-size:0.95rem;margin-bottom:34px;}
+  .chapter{display:flex;gap:18px;align-items:baseline;padding:18px 0;border-top:1px solid var(--rule);}
+  .chapter:last-child{border-bottom:1px solid var(--rule);}
+  .chapter .no{font-family:'Noto Naskh Arabic',serif;font-size:1.2rem;color:var(--rust);min-width:2ch;flex-shrink:0;}
+  .chapter .ti{font-size:1.08rem;font-weight:500;flex:1;}
+  .chapter .ct{font-size:0.88rem;color:var(--ink-soft);white-space:nowrap;}
+  .provenance{padding:52px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--paper-raised);}
+  .provenance .wrap{padding-top:52px;padding-bottom:52px;}
+  .provenance h2{font-size:1.4rem;margin-bottom:18px;}
+  .source-list{display:grid;grid-template-columns:1fr 1fr;gap:10px 28px;font-size:0.95rem;color:var(--ink-soft);}
+  .source-list span{color:var(--ink);}
+  @media(max-width:600px){.source-list{grid-template-columns:1fr;}}
+  .download{padding:60px 0;}
+  .download-card{border:1.5px solid var(--ink);padding:40px;background:var(--paper-raised);}
+  .download-card h2{font-size:1.5rem;margin-bottom:10px;}
+  .download-card p{color:var(--ink-soft);max-width:50ch;margin-bottom:28px;}
+  .formats{display:flex;gap:16px;flex-wrap:wrap;}
+  .format{border:1px solid var(--rule);padding:18px 22px;flex:1;min-width:220px;}
+  .format .ft{font-weight:700;font-size:1.05rem;margin-bottom:4px;}
+  .format .fs{font-size:0.85rem;color:var(--ink-soft);margin-bottom:14px;}
+  .format a{font-size:0.92rem;font-weight:600;color:var(--rust-deep);text-decoration:none;border-bottom:1px solid var(--rust-deep);}
+  .format a:hover{color:var(--ink);border-color:var(--ink);}
+  footer{padding:44px 0 60px;}
+  footer .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;border-top:1px solid var(--rule);padding-top:28px;}
+  footer .who{font-size:0.92rem;color:var(--ink-soft);}
+  footer .who b{color:var(--ink);}
+  footer .links a{font-size:0.9rem;margin-right:18px;text-decoration:none;color:var(--ink-soft);border-bottom:1px dotted var(--ink-soft);}
+  footer .links a:hover{color:var(--rust-deep);border-color:var(--rust-deep);}
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <div class="brand">rezakhah221 — آرشیو مقالات علمی</div>
+    <div class="date">اصفهان، ایران · از ۱۳۶۸ تا امروز</div>
+  </div>
+</header>
+<section class="hero">
+  <div class="wrap">
+    <div class="kicker">کتاب الکترونیک</div>
+    <h1>آثار و مقالات علیرضا رضاخواه</h1>
+    <p class="byline">
+      گزیده‌ای از مقالات علمی‌کاربردی، طرح‌های پژوهشی و سخنرانی‌های <b>علیرضا رضاخواه</b>
+      در زمینه‌ی بهداشت حرفه‌ای و ایمنی صنعتی، منتشرشده در بیش از صد شماره مطبوعات و مجلات
+      علمی‌دانشگاهی، و ارائه‌شده در سمینارها و کنگره‌های استانی، کشوری و خارجی.
+    </p>
+    <div class="stat-row">
+      <div class="stat"><div class="num">۱۰+</div><div class="label">فصل موضوعی</div></div>
+      <div class="stat"><div class="num">۱۰۰+</div><div class="label">مقاله و سند</div></div>
+      <div class="stat"><div class="num">۵۰۰+</div><div class="label">صفحه</div></div>
+      <div class="stat"><div class="num">۵۰</div><div class="label">سال سابقه نگارش</div></div>
+    </div>
+    <div class="cta-row">
+      <a class="btn primary" href="#download">دانلود کتاب<small>PDF</small></a>
+      <a class="btn ghost" href="#toc">مشاهده فهرست فصل‌ها</a>
+    </div>
+  </div>
+</section>
+<section class="intro">
+  <div class="wrap">
+    <p>این مجموعه، حاصل گردآوری اسناد اصل — نه بازنویسی — از آرشیو شخصی نویسنده است: برگه‌های زرد‌شده‌ی روزنامه، صفحات مجلات تخصصی، چکیده‌ی همایش‌ها و تقدیرنامه‌های علمی، همان‌گونه که نخستین‌بار منتشر شده‌اند.</p>
+    <p>موضوعات اصلی: ایمنی و پیشگیری از حوادث کار، بیماری‌های شغلی، کنترل عوامل زیان‌آور محیط کار، خستگی و ورزش نیروی کار، بهداشت نان و مواد غذایی، و گزارش همایش‌ها و مصاحبه‌های علمی.</p>
+  </div>
+</section>
+<section class="toc" id="toc">
+  <div class="wrap">
+    <h2>فهرست فصل‌ها</h2>
+    <div class="sub">هر فصل، مجموعه‌ای از مقالات هم‌موضوع را در بر می‌گیرد</div>
+    <div class="chapter"><span class="no">۰۱</span><span class="ti">ایمنی، حفاظت و پیشگیری از حوادث</span><span class="ct">۱۰ مقاله</span></div>
+    <div class="chapter"><span class="no">۰۲</span><span class="ti">بهداشت حرفه‌ای و بیماری‌های شغلی</span><span class="ct">۱۶ مقاله</span></div>
+    <div class="chapter"><span class="no">۰۳</span><span class="ti">بهداشت صنعتی و کنترل عوامل زیان‌آور محیط کار</span><span class="ct">۸ مقاله</span></div>
+    <div class="chapter"><span class="no">۰۴</span><span class="ti">خستگی، ورزش و سلامت نیروی کار</span><span class="ct">۱۶ مقاله</span></div>
+    <div class="chapter"><span class="no">۰۵</span><span class="ti">بهداشت نان و مواد غذایی</span><span class="ct">۷ مقاله</span></div>
+    <div class="chapter"><span class="no">۰۶</span><span class="ti">همایش‌ها، سمینارها و میزگردها</span><span class="ct">۶ سند</span></div>
+    <div class="chapter"><span class="no">۰۷</span><span class="ti">مصاحبه‌ها و معرفی</span><span class="ct">۴ سند</span></div>
+    <div class="chapter"><span class="no">۰۸</span><span class="ti">سرمقاله‌ها و دیدگاه‌های اجتماعی</span><span class="ct">۴ سرمقاله</span></div>
+    <div class="chapter"><span class="no">۰۹</span><span class="ti">رزومه، تقدیرنامه‌ها و پوسترهای آموزشی</span><span class="ct">۲ سند</span></div>
+    <div class="chapter"><span class="no">۱۰</span><span class="ti">اسناد و مقالات دیگر</span><span class="ct">۳۸ سند</span></div>
+  </div>
+</section>
+<section class="provenance">
+  <div class="wrap">
+    <h2>منابع و بستر انتشار اصلی</h2>
+    <div class="source-list">
+      <div>— <span>بهداشت جهان</span> (نشریه علمی)</div>
+      <div>— <span>صنعت و ایمنی</span> (نشریه علمی)</div>
+      <div>— <span>روزنامه اطلاعات</span></div>
+      <div>— <span>روزنامه کیهان</span></div>
+      <div>— <span>روزنامه همشهری</span></div>
+      <div>— <span>هفته‌نامه آتیه</span></div>
+      <div>— <span>مجله گسترش</span></div>
+      <div>— <span>ماهنامه اقتصاد خانواده</span></div>
+      <div>— <span>دانشگاه علوم‌پزشکی اصفهان</span></div>
+      <div>— <span>دانشگاه علوم‌پزشکی شهید بهشتی</span></div>
+      <div>— <span>سازمان تأمین اجتماعی</span></div>
+      <div>— <span>کنگره‌ها و همایش‌های علمی داخلی و خارجی</span></div>
+    </div>
+  </div>
+</section>
+<section class="download" id="download">
+  <div class="wrap">
+    <div class="download-card">
+      <h2>دانلود کتاب</h2>
+      <p>برای مشاهده‌ی بهینه روی گوشی یا رایانه، نسخه‌ی فشرده‌شده را دانلود کنید.</p>
+      <div class="formats">
+        <div class="format">
+          <div class="ft">PDF — نسخه‌ی فشرده</div>
+          <div class="fs">حدود ۴۱ مگابایت</div>
+          <a href="https://github.com/alirezarezakhah7-ux/articles-/releases/download/v1/rezakhah-articles-hq.pdf">دانلود PDF ↓</a>
+        </div>
+        <div class="format">
+          <div class="ft">Word — نسخه‌ی فشرده</div>
+          <div class="fs">حدود ۲۶ مگابایت</div>
+          <a href="https://github.com/alirezarezakhah7-ux/articles-/releases/download/v1/rezakhah-articles-hq.docx">دانلود Word ↓</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="provenance" style="border-top:1px solid var(--rule);">
+  <div class="wrap">
+    <h2>پروفایل‌ها و کانال‌های دیگر</h2>
+    <div class="source-list" style="grid-template-columns:1fr;">
+      <div>— <a href="https://civilica.com/p/306535" style="color:var(--rust-deep);text-decoration:underline;">پروفایل پژوهشگر علیرضا رضاخواه | Civilica</a></div>
+      <div>— <a href="https://www.isc.gov.ir/fa/person/306535" style="color:var(--rust-deep);text-decoration:underline;">جستجوی آثار علیرضا رضاخواه | نمایه علمی ISC</a></div>
+      <div>— <a href="https://www.linkedin.com/in/alireza-rezakhah-103aa942" style="color:var(--rust-deep);text-decoration:underline;">پروفایل حرفه‌ای علیرضا رضاخواه | LinkedIn</a></div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <div class="who"><b>علیرضا رضاخواه</b> — مشاور ارشد بهداشت صنعتی و ایمنی کار</div>
+    <div class="links">
+      <a href="https://alirezarezakhah7-ux.github.io/articles/">آرشیو مقالات</a>
+      <a href="mailto:rezakhah221@gmail.com">تماس</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
